@@ -1,5 +1,6 @@
 
-#include <string>
+#include <string.h>
+#include <stdlib.h>
 #include <iostream>
 
 #include "LRDataProvider.h"

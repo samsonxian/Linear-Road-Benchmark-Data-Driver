@@ -6,6 +6,7 @@
 #include <iostream>
 #include <fstream>
 
+#include <time.h>
 #include <pthread.h>	
 
 using namespace std;
