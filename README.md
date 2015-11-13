@@ -26,3 +26,4 @@ Make sure libLRDataProvider.a is always behind -pthread and other libaries
 ```
 ./myDataFeeder ./Data/datafile20seconds.dat
 ```
+Reference: [Linear Road: Installation Guide: Data Driver](http://www.cs.brandeis.edu/~linearroad/datadriverinstall.html)
