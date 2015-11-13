@@ -5,6 +5,7 @@
 #include <iostream>
 
 #include <time.h>
+#include <unistd.h>
 
 #include "LRDataProvider.h"
 
@@ -56,14 +57,13 @@ int main(int argc, char* argv[])
 
 	char* dataFile = argv[1];
 
-
 	//CLRDataProvider
 	CLRDataProvider* provider = new CLRDataProvider();
 	
 	//Initialize the provider
 	cout << "Initializing..." << endl;
 	int ret = provider->Initialize(dataFile, 10000, &mutex_lock);
-
+	
 	//Allocate caller's buffer
 	if ( ret != SUCCESS )
 	  {	
